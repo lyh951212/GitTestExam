@@ -55,4 +55,17 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/fedora/GitTest/test3.c" added="2017-12-20T04:11:09Z" modified="2017-12-20T04:11:14Z" visited="2017-12-20T04:11:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-12-20T04:11:14Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
