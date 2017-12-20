@@ -1,0 +1,77 @@
+2017. 12. 20. (수) 07:57:44 KST
+-rwxr-xr-x. 1 root root     100528  5월 16  2017 l2ping
+-rwxr-xr-x. 1 root root     117240  5월 16  2017 l2test
+-rwxr-xr-x. 1 root root      44536  2월 12  2017 last
+lrwxrwxrwx. 1 root root          4  2월 12  2017 lastb -> last
+-rwxr-xr-x. 1 root root      28560  2월 12  2017 lastcomm
+-rwxr-xr-x. 1 root root      19520  2월 12  2017 lastlog
+-rwxr-xr-x. 1 root root      19360  2월 11  2017 lchfn
+-rwxr-xr-x. 1 root root      15272  2월 11  2017 lchsh
+lrwxrwxrwx. 1 root root         20  7월  6 07:21 ld -> /etc/alternatives/ld
+-rwxr-xr-x. 1 root root    1263040  6월 12  2017 ld.bfd
+-rwxr-xr-x. 1 root root    3309104  6월 12  2017 ld.gold
+-rwxr-xr-x. 1 root root       5441  6월 20  2017 ldd
+-rwxr-xr-x. 1 root root     171376  5월 16  2017 less
+-rwxr-xr-x. 1 root root      11208  5월 16  2017 lessecho
+-rwxr-xr-x. 1 root root      20984  5월 16  2017 lesskey
+-rwxr-xr-x. 1 root root       3143  5월 16  2017 lesspipe.sh
+-rwxr-xr-x. 1 root root      94432  1월 19  2017 lexgrog
+-rwxr-xr-x. 1 root root      11184  2월 11  2017 libieee1284_test
+-rwxr-xr-x. 1 root root      41000  6월 12  2017 libinput-debug-events
+-rwxr-xr-x. 1 root root      28608  6월 12  2017 libinput-list-devices
+-rwxr-xr-x. 1 root root        372  6월  4  2017 libreoffice
+-rwxr-xr-x. 1 root root      15376  2월 11  2017 libtar
+-rwxr-xr-x. 1 root root      11296  5월 11  2017 libwacom-list-local-devices
+-rwxr-xr-x. 1 root root      32424  4월 28  2017 link
+-rwxr-xr-x. 1 root root       5993  3월 28  2017 linux-boot-prober
+lrwxrwxrwx. 1 root root          7  2월 12  2017 linux32 -> setarch
+lrwxrwxrwx. 1 root root          7  2월 12  2017 linux64 -> setarch
+lrwxrwxrwx. 1 root root         13  6월 30 20:14 liveinst -> consolehelper
+-rwxr-xr-x. 1 root root      66240  4월 28  2017 ln
+-rwxr-xr-x. 1 root root     213832  2월 11  2017 loadkeys
+-rwxr-xr-x. 1 root root      28016  2월 11  2017 loadunimap
+-rwxr-xr-x. 1 root root      46816  6월 20  2017 locale
+-rwxr-xr-x. 1 root root      28144  6월 28 06:49 localectl
+-rwxr-xr-x. 1 root root     354160  6월 20  2017 localedef
+-rwx--s--x. 1 root slocate   40416  2월 11  2017 locate
+-rwxr-xr-x. 1 root root      45352  2월 12  2017 logger
+-rwxr-xr-x. 1 root root      36112  2월 12  2017 login
+-rwxr-xr-x. 1 root root      52992  6월 28 06:49 loginctl
+-rwxr-xr-x. 1 root root      32440  4월 28  2017 logname
+-rwxr-xr-x. 1 root root      11176  5월 16  2017 logresolve
+-rwxr-xr-x. 1 root root      15304  2월 12  2017 look
+-rwxr-xr-x. 1 root root     111944  5월 31  2017 lowntfs-3g
+lrwxrwxrwx. 1 root root         26  7월  6 07:22 lp -> /etc/alternatives/print-lp
+-rwxr-xr-x. 1 root root      19392  5월  9  2017 lp.cups
+-rwxr-xr-x. 1 root root     603432  2월 11  2017 lp_solve
+-rwxr-xr-x. 1 root root      15280  5월  9  2017 lpoptions
+lrwxrwxrwx. 1 root root         27  7월  6 07:22 lpq -> /etc/alternatives/print-lpq
+-rwxr-xr-x. 1 root root      19392  5월  9  2017 lpq.cups
+lrwxrwxrwx. 1 root root         23  7월  6 07:22 lpr -> /etc/alternatives/print
+-rwxr-xr-x. 1 root root      15232  5월  9  2017 lpr.cups
+lrwxrwxrwx. 1 root root         28  7월  6 07:22 lprm -> /etc/alternatives/print-lprm
+-rwxr-xr-x. 1 root root      11128  5월  9  2017 lprm.cups
+-rwxr-xr-x. 1 root root       5470  5월  3  2017 lprsetup.sh
+lrwxrwxrwx. 1 root root         30  7월  6 07:22 lpstat -> /etc/alternatives/print-lpstat
+-rwxr-xr-x. 1 root root      32072  5월  9  2017 lpstat.cups
+-rwxr-xr-x. 1 root root     133104  4월 28  2017 ls
+-rwxr-xr-x. 1 root root      11208  2월  9  2017 lsattr
+-rwxr-xr-x. 1 root root      82336  2월 12  2017 lsblk
+-rwxr-xr-x. 1 root root      65696  2월 12  2017 lscpu
+-rwxr-xr-x. 1 root root       7200  6월 22 22:38 lsinitrd
+-rwxr-xr-x. 1 root root      73760  2월 12  2017 lsipc
+-rwxr-xr-x. 1 root root      36696  2월 12  2017 lslocks
+-rwxr-xr-x. 1 root root      61296  2월 12  2017 lslogins
+-rwxr-xr-x. 1 root root      40544  2월 12  2017 lsns
+-rwxr-xr-x. 1 root root     166496  2월 11  2017 lsof
+-rwxr-xr-x. 1 root root       1081  1월 13  2017 lspgpot
+-rwxr-xr-x. 1 root root     204512  2월 12  2017 lsusb
+-rwxr-xr-x. 1 root root      15306  2월 12  2017 lsusb.py
+-rwxr-xr-x. 1 root root      15384  5월 28  2017 lua
+-rwxr-xr-x. 1 root root     150848  5월 28  2017 luac
+-rwxr-xr-x. 1 root root      23744  2월 11  2017 lxpolkit
+lrwxrwxrwx. 1 root root          2  2월 11  2017 lz -> uz
+-rwxr-xr-x. 1 root root     123736  3월  5  2017 lz4
+-rwxr-xr-x. 1 root root     123736  3월  5  2017 lz4c
+lrwxrwxrwx. 1 root root          3  3월  5  2017 lz4cat -> lz4
+-rwxr-xr-x. 1 root root      74448  2월 11  2017 lzop

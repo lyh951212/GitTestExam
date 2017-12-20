@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:schemes">
+    <NC:Protocol-Schemes RDF:resource="urn:schemes:root"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:root"
+                   NC:ko_defaultHandlersVersion="4" />
+  <RDF:Description RDF:about="urn:handler:web:http://mail.daum.net/hanmail/Goto.daum?cmd=compose&amp;value=%s"
+                   NC:prettyName="한메일"
+                   NC:uriTemplate="http://mail.daum.net/hanmail/Goto.daum?cmd=compose&amp;value=%s" />
+  <RDF:Description RDF:about="urn:handler:web:http://mail.naver.com/write/?cmd=compose&amp;to=%s"
+                   NC:prettyName="네이버 메일"
+                   NC:uriTemplate="http://mail.naver.com/write/?cmd=compose&amp;to=%s" />
+  <RDF:Description RDF:about="urn:handler:web:https://compose.mail.yahoo.com/?To=%s"
+                   NC:prettyName="Yahoo! Mail"
+                   NC:uriTemplate="https://compose.mail.yahoo.com/?To=%s" />
+  <RDF:Description RDF:about="urn:scheme:handler:mailto"
+                   NC:useSystemDefault="true"
+                   NC:alwaysAsk="false">
+    <NC:possibleApplication RDF:resource="urn:handler:web:https://compose.mail.yahoo.com/?To=%s"/>
+    <NC:possibleApplication RDF:resource="urn:handler:web:http://mail.daum.net/hanmail/Goto.daum?cmd=compose&amp;value=%s"/>
+    <NC:possibleApplication RDF:resource="urn:handler:web:http://mail.naver.com/write/?cmd=compose&amp;to=%s"/>
+    <NC:possibleApplication RDF:resource="urn:handler:web:https://mail.google.com/mail/?extsrc=mailto&amp;url=%s"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:mailto"
+                   NC:value="mailto">
+    <NC:handlerProp RDF:resource="urn:scheme:handler:mailto"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:application/pdf"
+                   NC:value="application/pdf"
+                   NC:fileExtensions="pdf">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/pdf"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:handler:web:https://mail.google.com/mail/?extsrc=mailto&amp;url=%s"
+                   NC:prettyName="Gmail"
+                   NC:uriTemplate="https://mail.google.com/mail/?extsrc=mailto&amp;url=%s" />
+  <RDF:Seq RDF:about="urn:mimetypes:root">
+    <RDF:li RDF:resource="urn:mimetype:application/pdf"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="urn:schemes:root">
+    <RDF:li RDF:resource="urn:scheme:mailto"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mimetype:handler:application/pdf"
+                   NC:handleInternal="true"
+                   NC:alwaysAsk="false" />
+  <RDF:Description RDF:about="urn:mimetypes">
+    <NC:MIME-types RDF:resource="urn:mimetypes:root"/>
+  </RDF:Description>
+</RDF:RDF>
